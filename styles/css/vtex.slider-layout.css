@@ -1,0 +1,15 @@
+.sliderTrackContainer{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.caretIcon {
+    color: #1DB8FB;
+}
+
+.paginationDot--isActive {
+    background: #1DB8FB;
+}
+
+.paginationDot {
+    margin-bottom: 60px;
+}

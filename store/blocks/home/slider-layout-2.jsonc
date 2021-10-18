@@ -1,0 +1,113 @@
+{
+  "slider-layout#homedesktop2": {
+    "children": ["info-card#playstation2", "info-card#xbox2", "info-card#nitendo2", "info-card#pc2"],
+    "props": {
+      "itemsPerPage": 5,
+      "arrows": false,
+      "minItemsPerPage": 1,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "slider-layout#homemobile2": {
+    "children": ["info-card#playstationmobile2", "info-card#xboxmobile2","info-card#nitendomobile2", "info-card#pcmobile2"],
+    "props": {
+      "arrows": false,
+      "minItemsPerPage": 1.5,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
+  },
+
+  "info-card#playstation2": {
+    "props": {
+      "id": "info-plataforma",
+      "isFullModeStyle": false,
+      "textAlignment": "center",
+      "textPosition": "center",
+      "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(6).png",
+      "headline": "Playstation",
+      "blockClass": "info-plataforma"
+  }
+},
+
+"info-card#xbox2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "textAlignment": "center",
+      "textPosition": "center",
+    "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(7).png",
+    "headline": "Xbox",
+    "blockClass": "info-plataforma"
+  }
+},
+
+"info-card#nitendo2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "textAlignment": "center",
+    "textPosition": "center",
+    "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(8).png",
+    "headline": "Nintendo Wii",
+    "blockClass": "info-plataforma"
+  }
+},
+
+"info-card#pc2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "textAlignment": "center",
+    "textPosition": "center",
+    "imageUrl": "https://github.com/carlosaalves10/img/blob/main/Thumbnail%20(9).png?raw=true",
+    "headline": "PC Windows",
+    "blockClass": "info-plataforma"
+  }
+},
+
+"info-card#playstationmobile2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(6).png",
+    "headline": "Playstation",
+    "blockClass": "info-plataformamobile"
+  }
+},
+  
+"info-card#xboxmobile2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(7).png",
+    "headline": "Xbox",
+    "blockClass": "info-plataformamobile"
+  }
+},
+
+"info-card#nitendomobile2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(8).png",
+    "headline": "Nintendo Wii",
+    "blockClass": "info-plataformamobile"
+  }
+},
+
+"info-card#pcmobile2": {
+  "props": {
+    "id": "info-plataforma",
+    "isFullModeStyle": false,
+    "imageUrl": "https://raw.githubusercontent.com/carlosaalves10/img/main/Thumbnail%20(9).png",
+    "headline": "PC Windows",
+    "blockClass": "info-plataformamobile"
+  }
+}
+}
