@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/carlosaalves10/img/main/wedigi.png">
+<img src="https://raw.githubusercontent.com/carlosaalves10/img/main/as1.png">
   <br>Teste WeDigi
 </h1>
 
