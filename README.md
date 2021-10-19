@@ -11,7 +11,7 @@
 
 ## Seções
 O site é composto pelas seguintes seções:
-**Home**
+
 - **Header com categorias** 
 - **Produtos em destaque**
 - **Seção por plataforma disponível**
