@@ -1,62 +1,45 @@
-# Minimum Boilerplate Theme
+<h1 align="center">
+<img src="https://raw.githubusercontent.com/carlosaalves10/img/main/as1.png">
+  <br>Teste WeDigi
+</h1>
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+<h4 align="center">
+  Projeto feito com o objetivo de realizar o desafio da empresa WeDigi de VTEX-IO.
+</h4>
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+---
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+## Seções
+O site é composto pelas seguintes seções:
 
-## Configuration
+- **Header com categorias** 
+- **Produtos em destaque**
+- **Seção por plataforma disponível**
+- **Card de Produto Lançamento**
+- **Produtos em Alta**
+- **Promoções**
+- **Footer**
 
-### Step 1 -  Basic setup
+---
+##  Tecnologias Utilizadas
+**Para o desenvolvimento deste projeto Foi utilizado o ReactJS, VTEX-IO e CSS.**
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+---
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+Requisitos:
+- **VSCode**
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+---
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
-
-Then, access the repository's directory using your terminal. 
-
-### Step 3 - Editing the `Manifest.json`
-
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
-
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
-```
-
-### Step 4 -  Installing required apps
-
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
-
-Run  `vtex list`  and check whether those apps are already installed. 
-
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
-
-```json
-vtex uninstall vtex.store-theme
-```
-
-### Step 6- Run and preview your store
-
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
-
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
-
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+## Autor<br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/carlosaalves10">
+        <img src="https://avatars.githubusercontent.com/u/85580151?s=400&u=381b5d65b29120f5826119ce3faa537c0c0a5ec4&v=4" width="100px;" alt="Foto do Carlos Alves no GitHub"/><br>
+        <sub>
+          <b>Carlos Alves</b>
+        </sub>
+      </a><br>
+    </td>
+</table>
