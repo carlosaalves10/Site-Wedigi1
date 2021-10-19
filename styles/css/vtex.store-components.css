@@ -1,0 +1,592 @@
+
+.notificationBarInner--notificacao {
+    background-color:#1DB8FB;
+}
+
+.autoCompleteOuterContainer{
+    background: none;
+    color: white;
+}
+.seacrhBarContainer{
+    background: none;
+    border: none;
+}
+
+.searchIcon{
+    color: #fff;
+}
+
+.infoCardTextContainer--bannerOne{
+    width: 565px;
+    height: 52px;
+    margin-bottom: 180px;
+}
+
+.infoCardHeadline--bannerOne {
+    font-family: "Poppins", serif;
+    font-size: 46px;
+    font-weight: normal;
+    color: white;   
+}
+.infoCardHeadline--bannerOneMobile{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.infoCardSubhead--bannerOne {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    margin-top: 0;
+}
+.infoCardSubhead--bannerOneMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+.infoCardTextContainer--bannerOneMobile {
+    position: absolute;
+    width: 374px;
+    height: 32px;
+    top: 300px;
+    text-align: center;
+}
+
+.newsletter {
+    background-color: #03054e;
+    max-width: 1528px;
+    margin: 0 auto;
+  }
+
+  .newsletter .container {
+    padding: 60px 10px;
+  }
+
+
+.infoCardContainer--bannerOne {
+    height: 740px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: flex-end;
+}
+.infoCardContainer--bannerOneMobile {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 0;
+}
+
+.imageElement--imagem {
+    max-width: 316px;
+    min-width: 257;
+    max-height: 450px;
+    min-height: 420;
+    margin: 5px;
+}
+
+.imageElement--imagem2 {
+
+    width: 360px;
+    height: 200px;
+    border: none;
+    display: flex;
+    align-items: end;
+    align-content: flex-end;
+    /* Primário / Main Color */
+
+    background: #1DB8FB;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    /*max-width: 316px;
+    min-width: 257;
+    max-height: 450px;
+    min-height: 420;
+    margin: 5px;*/
+}
+
+.imageElement--imagemMobile {
+    width: 257px;
+    height: 420px;
+}
+.slideChildrenContainer{
+    margin: 10px;
+}
+
+.infoCardContainer--info-plataforma {
+    width: 320px;
+    height: 200px;
+    border: none;
+    display: flex;
+    align-items: end;
+    align-content: flex-end;
+    /* Primário / Main Color */
+
+    background: #1DB8FB;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.infoCardHeadline--imagem2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: end;
+    /* identical to box height, or 131% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+
+.infoCardHeadline--info-plataforma{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 750;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: end;
+    /* identical to box height, or 131% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardCallActionContainer--info-plataforma {
+    display:none;
+}
+
+.infoCardImage--info-plataforma {
+    height: 197px;
+    width: 182px;
+    margin-bottom: -4px;
+    margin-left: 5px;
+}
+
+.infoCardContainer--info-plataformamobile {
+    width: 330px;
+    height: 175px;
+    border: none;
+    display: flex;
+    align-items: end;
+    align-content: flex-end;
+    /* Primário / Main Color */
+
+    background: #1DB8FB;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.infoCardHeadline--info-plataformamobile{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: end;
+    /* identical to box height, or 131% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardCallActionContainer--info-plataformamobile {
+    display: none;
+}
+
+.infoCardImage--info-plataformamobile {
+    height: 171px;
+    width: 155px;
+    margin-bottom: -4px;
+    margin-left: 5px;
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+.infoCardContainer--bannerEmbreve {
+    width: 95%;
+    margin: 0 auto;
+    height: 720px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    border: none;
+}
+.infoCardTextContainer--bannerEmbreve{
+    text-align: right;
+    width: 400px;
+    margin-right: 237px;
+    margin-top: -100px;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.infoCardHeadline--bannerEmbreve {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 52px;
+    /* identical to box height, or 113% */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Primário / Dark */
+
+    color: #06092B;
+    margin: 0;
+}
+.infoCardSubhead--bannerEmbreve {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+    width: 150px;
+    height: 56px;
+    color: white;
+    background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
+    border-radius: 5px;
+    border: none;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+    background: linear-gradient(177.65deg, #1DB8FB 1.96%, #158ABC 98.03%);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.infoCardContainer--bannerEmbrevemobile {
+    width: 330px;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+}
+.infoCardTextContainer--bannerEmbrevemobile {
+    text-align: right;
+    width: 250px;
+}
+.infoCardHeadline--bannerEmbrevemobile {
+    /* Heading 3 */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+    color: #06092B;
+}
+
+.infoCardSubhead--bannerEmbrevemobile {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    /* identical to box height, or 233% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+
+.infoCardContainer--bannerMini {
+    width: 750px;
+    height: 585px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.infoCardTextContainer--bannerMini {
+    width: 500px;
+}
+.infoCardHeadline--bannerMini {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardSubhead--bannerMini {
+    margin-bottom: -10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    letter-spacing: 0.02em;
+    /* Neutro / White */
+    color: #FFFFFF;
+}
+
+.infoCardContainer--bannerMinimobile {
+    width: 95%;
+    height: 585px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.infoCardHeadline--bannerMinimobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height, or 118% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+.infoCardSubhead--bannerMinimobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+}
+
+.imageElement--redeImagem {
+    width: 132px;
+    height: 132px;
+}
+
+.imageElement--redeImagemmobile {
+    width: 90px;
+    height: 90px;
+}
+
+.imageElement--imagemFooter{
+    width: 71px;
+    height: 30px;
+    margin-left: 40px;   
+}
+.imageElement--imagemFooter1{
+    width: 82px;
+    height: 30px; 
+}
+.imageElement--payment{
+    width: 348px;
+    height: 30px;  
+    margin: 0 auto;
+}
+.imageElement--paymentmobile{
+    width: 320px;
+    height: 30px;  
+    margin: 0 auto;
+}
+
+.imageElement--imagemFootermobile{
+    width: 71px;
+    height: 30px;
+    margin-left: 40px;   
+}
+.imageElement--imagemFooter1mobile{
+    margin-bottom: -10px;
+    width: 82px;
+    height: 30px; 
+}
+
+
+
+
+
+.infoCardContainer--infoCategoria {
+    background: #1DB8FB;
+    height: 545px;
+    border: none;
+}
+.infoCardImageContainer--infoCategoria {
+    width: 1260px;
+    height: 560px;    
+    margin-bottom: -20px;
+    margin-right: -20px;
+}
+
+.infoCardImage--infoCategory {
+    width: 1350px;
+    height: 560px;
+}
+.infoCardTextContainer--infoCategoria {
+    width: 580px;
+    margin-left: 60px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+}
+
+.infoCardCallActionContainer--infoCategoria {
+    display: none;
+}
+
+
+.infoCardSubhead--infoCategoria {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 157% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.infoCardHeadline--infoCategoria {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 52px;
+    /* identical to box height, or 113% */
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    
+}
+
+.infoCardCallActionContainer--infoCategoriaMobile {
+    display: none;
+}
+
+.infoCardSubhead--infoCategoriaMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.infoCardHeadline--infoCategoriaMobile {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+
+    /* Neutro / White */
+
+    color: #FFFFFF;
+    
+}
+.infoCardTextContainer--infoCategoriaMobile {
+    width: 320px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.infoCardContainer--infoCategoriaMobile {
+    background: #1DB8FB;
+    height: 747px;;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    justify-content: end;
+}
+
+.infoCardImage--infoCategoriaMobile {
+    width: 414px;
+    height: 350px;
+    margin-bottom: -20px;
+}
